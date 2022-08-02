@@ -1,5 +1,6 @@
 @extends('frontend.master')
 @section('contents')
+<br><br>
 <section id="about" class="about">
     <div class="container">
 
