@@ -27,19 +27,17 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Our Services</h4>
+                    <h4>Our Products</h4>
                     <ul>
-                        <li><i class="fa-solid fa-angle-right"></i>&nbsp; <a href="#">Web Design</a></li>
-                        <li><i class="fa-solid fa-angle-right"></i>&nbsp; <a href="#">Web Development</a></li>
-                        <li><i class="fa-solid fa-angle-right"></i>&nbsp; <a href="#">Product Management</a></li>
-                        <li><i class="fa-solid fa-angle-right"></i>&nbsp; <a href="#">Marketing</a></li>
-                        <li><i class="fa-solid fa-angle-right"></i>&nbsp; <a href="#">Graphic Design</a></li>
+                        <li><i class="fa-solid fa-angle-right"></i>&nbsp; <a href="#">Dyeing Machines</a></li>
+                        <li><i class="fa-solid fa-angle-right"></i>&nbsp; <a href="#">Pre-Dryer Machines</a></li>
+                        <li><i class="fa-solid fa-angle-right"></i>&nbsp; <a href="#">Padder Control Machines</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4>Our Social Networks</h4>
-                    <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+                    <p>You  connect with us these Social Networks</p>
                     <div class="social-links mt-3">
                         <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
                         <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>

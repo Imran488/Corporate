@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
                 <h1>Better Solutions For Your Business</h1>
-                <h2>Maxibo Spiritof Quality</h2>
+                <h2>Maxibo Spirit of Quality</h2>
                 <div class="d-flex justify-content-center justify-content-lg-start">
                     <a href="#about" class="btn-get-started scrollto">Get Started</a>
                     &nbsp;
