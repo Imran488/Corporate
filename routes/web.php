@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\frontend\HomeController;
+use App\Http\Controllers\frontend\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,4 +21,8 @@ Route::group([], function () {
     Route::get('/contact-us', [HomeController::class, 'contact'])->name('contact.us');
     Route::get('/booking', [HomeController::class, 'booking'])->name('booking');
     Route::post('/message-us', [HomeController::class, 'message'])->name('message.us');
+    Route::get('login',[UserController::class,'login'])->name('user.login');
+    Route::post('do-login',[UserController::class,'userlogin'])->name('user.do.login');
+    Route::get('registration',[UserController::class,'registration'])->name('user.registration');
+    Route::post('do-registration',[UserController::class,'userregister'])->name('user.do.registration');
 });

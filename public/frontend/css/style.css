@@ -2,7 +2,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  background-color: #000507;
+  background-color: #deedf3;
 }
 
 a {
@@ -541,7 +541,7 @@ section {
 .about-container{
     width: 100%;
     height: 80vh;
-    /* background: #b2c1e9; */
+    background: #b2c1e9;
     color: #0d0d0e;
     background-image: url(../img/maxibo-logo.jpg);
 }
