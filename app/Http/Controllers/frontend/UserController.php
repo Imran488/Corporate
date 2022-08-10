@@ -10,18 +10,18 @@ use Illuminate\Support\Facades\Auth;
 class UserController extends Controller
 {
     public function registration(){
-        return view('frontend.pages.user-registration');
+        return view ('frontend.pages.user-registration');
     }
     public function login(){
-        return view('frontend.pages.user-login');
+        return view ('frontend.pages.user-login');
     }
 
     public function userregister(Request $request){
+        // dd($request->all());
+
         $this->validate($request, [
             'email'=>'required|max:50|unique:users,email',
-            'phone'=>'required|max:11|unique:users,phone'
         ]);
-        // dd($request->all());
         User::create([
             'name'=>$request->name,
             'email'=>$request->email,
@@ -47,6 +47,11 @@ class UserController extends Controller
         else
         return redirect()->back()->with('error','Invalid email or password');
 
+    }
+
+    public function userlogout(){
+        Auth::logout();
+        return redirect()->route('home')->with('message','Logged Out Thank You ');
     }
 
 }

@@ -7,17 +7,30 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
-                    <h1>Better Solutions For Your Business</h1>
+                    <h1>Impel You to Next</h1>
                     <h2>Maxibo Spiritof Quality</h2>
                     <div class="d-flex justify-content-center justify-content-lg-start">
-                        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+                        <a href="{{route('booking')}}" class="btn-get-started scrollto">Book Now</a>
                         &nbsp;
                         <a href="#" class="btn-watch-video"><span>Watch Video</span></a>
                     </div>
                 </div>
-                <div class="col-lg-6 order-1 order-lg-2 banner-img">
+                {{-- <div class="col-lg-6 order-1 order-lg-2 banner-img">
                     <img src="{{url('frontend/img/maxibo-logo.jpg')}}" class="img-fluid animated" alt="">
-                </div>
+                </div> --}}
+                <div id="carouselExampleSlidesOnly" class="carousel slide col-lg-6 order-1 order-lg-2" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="{{url('frontend/img/solution.webp')}}" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="{{url('frontend/img/vast.webp')}}" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="{{url('frontend/img/machine.webp')}}" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                  </div>
             </div>
         </div>
 
@@ -26,7 +39,7 @@
 
     <main id="main">
         <!-- ======= About Us Section ======= -->
-        <section id="about" class="about">
+        {{-- <section id="about" class="about">
             <div class="about-container">
 
                 <div class="section-title">
@@ -50,57 +63,8 @@
                 </div>
 
             </div>
-        </section>
+        </section> --}}
         <!-- End About Us Section -->
-
-
-        <!-- ======= Services Section ======= -->
-        <section id="services" class="services section-bg">
-            <div class="container">
-
-                <div class="section-title">
-                    <h2>Services</h2>
-                    <p>We have to Providing wide range of Services</p>
-                </div>
-
-                <div class="row">
-                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch">
-                        <div class="icon-box">
-                            <div class="icon"><img src="{{url('frontend/img/vast.webp')}}" alt="" class="img-fluid"></div>
-                            <h4><a href="">Lorem Ipsum</a></h4>
-                            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-                        <div class="icon-box">
-                            <div class="icon"><img src="{{url('frontend/img/machine.webp')}}" alt="" class="img-fluid"></div>
-                            <h4><a href="">Sed ut perspici</a></h4>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0">
-                        <div class="icon-box">
-                            <div class="icon"><img src="{{url('frontend/img/solution.webp')}}" alt="" class="img-fluid"></div>
-                            <h4><a href="">Magni Dolores</a></h4>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0">
-                        <div class="icon-box">
-                            <div class="icon"><img src="{{url('frontend/img/machine.webp')}}" alt="" class="img-fluid"></div>
-                            <h4><a href="">Nemo Enim</a></h4>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-        <!-- End Services Section -->
 
         <!-- ======= Product Section ======= -->
         <section id="product" class="product section-bg">
@@ -158,6 +122,57 @@
             </div>
         </section>
         <!-- End product Section -->
+
+
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services section-bg">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Services</h2>
+                    <p>We have to Providing wide range of Services</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch">
+                        <div class="icon-box">
+                            <div class="icon"><img src="{{url('frontend/img/vast.webp')}}" alt="" class="img-fluid"></div>
+                            <h4><a href="">Lorem Ipsum</a></h4>
+                            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                        <div class="icon-box">
+                            <div class="icon"><img src="{{url('frontend/img/machine.webp')}}" alt="" class="img-fluid"></div>
+                            <h4><a href="">Sed ut perspici</a></h4>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0">
+                        <div class="icon-box">
+                            <div class="icon"><img src="{{url('frontend/img/solution.webp')}}" alt="" class="img-fluid"></div>
+                            <h4><a href="">Magni Dolores</a></h4>
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0">
+                        <div class="icon-box">
+                            <div class="icon"><img src="{{url('frontend/img/machine.webp')}}" alt="" class="img-fluid"></div>
+                            <h4><a href="">Nemo Enim</a></h4>
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Services Section -->
+
+
 
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">

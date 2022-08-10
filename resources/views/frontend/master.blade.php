@@ -30,7 +30,7 @@
 
             {{-- <h1 class="logo me-auto"><a href="{{route('home')}}">Maxibo</a></h1> --}}
             <!-- Uncomment below if you prefer to use an image logo -->
-            <a href="{{route('home')}}" class="logo me-auto"><img src="{{url('frontend/img/maxibo-logo.jpg')}}" alt="" class="img-fluid"><span>Maxibo</span></a>
+            <a href="{{route('home')}}" class="logo"><img src="{{url('frontend/img/maxibo-logo.jpg')}}" alt="" class="img-fluid"><span></span></a>
 
 
             @include('frontend.partials.navbar')

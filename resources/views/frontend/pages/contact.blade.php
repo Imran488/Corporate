@@ -6,7 +6,7 @@
 
         <div class="section-title">
             <h2>Contact-Us</h2>
-            <p style="color: floralwhite">You can Contact Us or Message Us anytime. We can Reply as soon as possible </p>
+            <p>You can Contact Us or Message Us anytime. We can Reply as soon as possible </p>
         </div>
 
         @if (Session::has('success'))
