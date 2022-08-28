@@ -1,6 +1,6 @@
 @extends('frontend.master')
 @section('contents')
-<br>
+<br><br><br><br><br><br>
 <section id="contact" class="contact">
     <div class="container">
 

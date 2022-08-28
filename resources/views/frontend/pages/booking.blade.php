@@ -1,10 +1,18 @@
 @extends('frontend.master')
 @section('contents')
-    <br><br>
+    <br><br><br>
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-title">
                 <h2>Contact for Booking</h2>
+                <br>
+                <h3>
+                    <a href="tel:01766-140491" style="text-decoration: none"><i class="fa-solid fa-phone"></i>&nbsp; Call Us:&nbsp;01680-329598</a>
+                    <br>
+                    Or
+                    <br>
+                    <a href="tel:01766-140491" style="text-decoration: none"><i class="fa-solid fa-envelope"></i>&nbsp; Message Us</a>
+                </h3>
             </div>
 
             <div class="">
