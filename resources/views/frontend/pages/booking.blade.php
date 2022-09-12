@@ -1,6 +1,6 @@
 @extends('frontend.master')
 @section('contents')
-    <br><br><br>
+    <br><br><br><br><br><br>
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-title">
@@ -11,7 +11,7 @@
                     <br>
                     Or
                     <br>
-                    <a href="tel:01766-140491" style="text-decoration: none"><i class="fa-solid fa-envelope"></i>&nbsp; Message Us</a>
+                    <a style="color: rgb(42, 102, 65)"><i class="fa-solid fa-envelope"></i>&nbsp; Message Us</a>
                 </h3>
             </div>
 

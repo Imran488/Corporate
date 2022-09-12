@@ -23,6 +23,10 @@ Route::get('/logout',[UserController::class,'userlogout'])->name('logout');
 Route::get('/', [HomeController::class, 'home'])->name('home');
 Route::get('/about-us', [HomeController::class, 'about'])->name('about.us');
 Route::get('/contact-us', [HomeController::class, 'contact'])->name('contact.us');
+Route::get('/privacy-policy', [HomeController::class, 'privacy'])->name('privacy.policy');
+Route::get('/termsandconditions',[HomeController::class,'terms'])->name('terms.conditions');
+
+
 
 Route::group(['middleware'=>'user'], function () {
 Route::get('/booking', [HomeController::class, 'booking'])->name('booking');

@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers\frontend;
 
-use App\Http\Controllers\Controller;
 use App\Models\Booking;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
 {
@@ -18,6 +19,14 @@ class HomeController extends Controller
 
     public function contact(){
         return view('frontend.pages.contact');
+    }
+
+    public function privacy(){
+        return view('frontend.pages.privacy-policy');
+    }
+
+    public function terms(){
+        return view('frontend.pages.terms-conditions');
     }
 
     public function booking(){
@@ -41,7 +50,7 @@ class HomeController extends Controller
         $contact->message = $request->message;
 
         $contact->save();
-        \Mail::send('frontend.pages.email',
+        Mail::send('frontend.pages.email',
             array(
                 'name' => $request->get('name'),
                 'email' => $request->get('email'),

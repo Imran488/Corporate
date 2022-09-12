@@ -18,11 +18,11 @@
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4>Useful Links</h4>
                     <ul>
-                        <li><i class="fa-solid fa-angle-right"></i>&nbsp; <a href="#">Home</a></li>
+                        <li><i class="fa-solid fa-angle-right"></i>&nbsp; <a href="{{route('home')}}">Home</a></li>
                         <li><i class="fa-solid fa-angle-right"></i>&nbsp; <a href="{{ route('about.us') }}">About us</a></li>
-                        <li><i class="fa-solid fa-angle-right"></i>&nbsp; <a href="#">Services</a></li>
-                        <li><i class="fa-solid fa-angle-right"></i>&nbsp; <a href="#">Terms of service</a></li>
-                        <li><i class="fa-solid fa-angle-right"></i>&nbsp; <a href="#">Privacy policy</a></li>
+                        <li><i class="fa-solid fa-angle-right"></i>&nbsp; <a href="#services">Services</a></li>
+                        <li><i class="fa-solid fa-angle-right"></i>&nbsp; <a href="{{route('terms.conditions')}}">Terms of service</a></li>
+                        <li><i class="fa-solid fa-angle-right"></i>&nbsp; <a href="{{route('privacy.policy')}}">Privacy policy</a></li>
                     </ul>
                 </div>
 
